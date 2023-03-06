@@ -26,7 +26,7 @@ const UpperNav = () => {
             <p className='account'>
                 <span>
                     <span className='account-icon'><BsPerson /></span>
-                    <span className='account-name'>sanchithakp123</span>
+                    <span className='account-name'>User loged in</span>
                     <span><BsChevronDown
                         onClick={() => { log ? setLogout(false) : setLogout(true) }}
                     /></span>
@@ -38,4 +38,4 @@ const UpperNav = () => {
     )
 }
 
-export default UpperNav
+export default UpperNav;
